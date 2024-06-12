@@ -1,23 +1,24 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'Digital House',
+        course: 'Certified Tech Developer',
+        startYear: '2022',
+        endYear: '2024'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'GCBA',
+        course: 'UX-UI Designer',
+        startYear: '2022',
+        endYear: '2022'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
+        institution: 'Coderhouse',
+        course: 'React Frontend Developer',
         startYear: '2021',
-        endYear: 'Present'
+        endYear: '2022'
     },
+    
 ]

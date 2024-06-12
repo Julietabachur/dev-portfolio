@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Hello! My name is Julieta Bachur. I'm a frontend web developer based in Buenos Aires, Argentina.",
+    description2: "I am a student at Digital House, currently pursuing a degree in Certified Tech Developer - Frontend Specialist. As you may see, many of my projects are about Dolce Julieta and you might be wondering who she is.\n\nWell... she's my alter ego. Some of my passions, besides programming, include art, pastry making, and business. That's why I've created my own pastry business, and it's to that other part of myself that I've dedicated most of my projects.\n\nI also love travelling, watching movies, and listening to music.",
     image: 2
 }

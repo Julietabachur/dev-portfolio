@@ -1,29 +1,31 @@
+import professionalDeveloper from "../assets/png/professionalDeveloper.png"
+
 export const achievementData = {
     bio : "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. - Alvin Toffler",
     achievements : [
         {
             id : 1,
-            title : '2021 Complete Python Bootcamp From Zero to Hero in Python',
-            details : 'A python course from Udemy',
-            date : 'Jan 28, 2021',
+            title : 'Professional Developer',
+            details : '1st track of Certified Tech Developer career',
+            date : 'Dic, 2023',
             field : 'Coding',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-0cd075aa-f55b-4d9f-aec0-119020a4e792.jpg?v=1611846350000'
+            image : "https://media.licdn.com/dms/image/D4D2DAQEU0p9mNSOsEQ/profile-treasury-document-images_800/1/1707182562122?e=1711584000&v=beta&t=nIi8IuUEej_XMGbljOSxtgyGzDKqJVQGeY2QNtCukjo"
         },
         {
             id : 2,
-            title : 'The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert',
-            details : 'A MySQL course from Udemy',
-            date : 'May 25, 2021',
-            field : 'Database',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-91ae3ea2-39ee-4a57-bf23-d397aff0d9a7.jpg?v=1621951317000'
+            title : 'Angular: De cero a experto',
+            details : 'An Angular course from Udemy',
+            date : 'Jul 5, 2023',
+            field : 'Coding',
+            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-1fed7499-01fe-4b57-a85b-465c31ceb49f.jpg?v=1688650463000'
         },
         {
             id : 3,
-            title : 'Machine Learning A-Z: Hands-On Python & R in Data Science',
-            details : 'Data Science Course from Udemy',
-            date : 'Apr 13, 2021',
-            field : 'Machine Learning',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-d9a7ba99-8635-47e6-96fc-7dd26a3dcbf1.jpg?v=1618297236000'
+            title : 'Diseño UX-UI',
+            details : 'UX-UI Design Course from GCBA',
+            date : 'Dic, 2022',
+            field : 'UX-UI',
+            image : 'https://media.licdn.com/dms/image/D4D2DAQFhMa_HLf9W6A/profile-treasury-document-images_800/1/1707268185690?e=1711584000&v=beta&t=s13f5gZ26O85oo-SpuJuxziHds8zaMqZK27fQ7y16_4'
         },
         {
             id : 3,
