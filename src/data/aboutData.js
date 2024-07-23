@@ -1,6 +1,8 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "Hello! My name is Julieta Bachur. I'm a frontend web developer based in Buenos Aires, Argentina.",
-    description2: "I am a student at Digital House, currently pursuing a degree in Certified Tech Developer - Frontend Specialist. As you may see, many of my projects are about Dolce Julieta and you might be wondering who she is.\n\nWell... she's my alter ego. Some of my passions, besides programming, include art, pastry making, and business. That's why I've created my own pastry business, and it's to that other part of myself that I've dedicated most of my projects.\n\nI also love travelling, watching movies, and listening to music.",
-    image: 2
-}
+  title: "About me",
+  description1:
+    "Hello! My name is Julieta Bachur. I'm a frontend web developer based in Buenos Aires, Argentina.",
+  description2:
+    "I am a student at Digital House, currently pursuing a degree in Certified Tech Developer - Frontend Specialist. Some of my passions include art, pastry making, language and business. I've worked as a teacher of English, I've had my own pastry business and now I'm a frontend developer and UX-UI designer.\n\nI also love travelling, watching movies and listening to music.",
+  image: 2,
+};
