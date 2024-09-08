@@ -3,6 +3,8 @@ export const aboutData = {
   description1:
     "Hello! My name is Julieta Bachur. I'm a frontend web developer based in Buenos Aires, Argentina.",
   description2:
-    "I am a student at Digital House, currently pursuing a degree in Certified Tech Developer - Frontend Specialist. Some of my passions include art, pastry making, language and business. I've worked as a teacher of English, I've had my own pastry business and now I'm a frontend developer and UX-UI designer.\n\nI also love travelling, watching movies and listening to music.",
-  image: 2,
+    "I am pursuing a degree in Certified Tech Developer - Frontend Specialist at Digital House.",
+    description3:"Currently I'm working as a frontend developer and UX-UI designer at CNP Seguros. I am also part of a digital lab where we are being trained in APIs, AI and data analytics with the goal of developing the skills needed to create innovations for the company.",
+    description4:"Some of my passions include art, pastry making, language and business. I also love travelling, watching movies and listening to music.",
+    image: 2,
 };

@@ -164,7 +164,7 @@ function Landing() {
               {headerData.resumePdf && (
                 <a
                   href={headerData.resumePdf}
-                  download="resume"
+                  download="JulietaBachur-DEV"
                   target="_blank"
                   rel="noreferrer"
                 >
