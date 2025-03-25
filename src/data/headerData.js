@@ -1,4 +1,4 @@
-import JulietaBachurResume from '../assets/pdf/JulietaBachur-DEV.pdf'
+import JulietaBachurResume from '../assets/pdf/CV_Julieta_Bachur.pdf'
 import profileImg from '../assets/png/profileImg.png'
 
 export const headerData = {

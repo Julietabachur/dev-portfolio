@@ -2,15 +2,15 @@ export const educationData = [
   {
     id: 1,
     institution: "Digital House",
-    course: "CTD - Frontend Specialist (2nd track)",
-    startYear: "2024",
+    course: "Certified Tech Developer - Frontend Specialist",
+    startYear: "2022",
     endYear: "2024",
-  },
+  },  
   {
     id: 2,
-    institution: "Digital House",
-    course: "CTD - Professional Developer (1rst track)",
-    startYear: "2022",
+    institution: "UDEMY",
+    course: "Angular: De cero a experto - Edición 2023",
+    startYear: "2023",
     endYear: "2023",
   },
   {
