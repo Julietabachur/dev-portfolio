@@ -49,8 +49,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             {name}
           </h2>
           <img src={image ? image : placeholder} alt={name} />
-          <div className="project--showcaseBtn">
-            {demo && (
+          <div className="project--showcaseBtn" style={{ justifyContent: demo.length > 1 && 'flex-start' }}>
+            {/* {demo && (
               <a
                 href={demo}
                 target="_blank"
@@ -66,12 +66,37 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                   aria-label="Demo"
                 />
               </a>
-            )}
+            )} */}
+
+            {demo?.length > 0 &&
+              demo.map((url, index) => {
+                const baseId = `${name.replace(" ", "-").toLowerCase()}-${index}`;
+                return (
+                  <a
+                    key={index}
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.iconBtn}
+                    style={{ marginLeft: demo.length > 1 && index > 0 ? '10px' : '0px' }}
+                    aria-labelledby={`${baseId} ${baseId}-demo`}
+                  >
+                    <FaPlay
+                      id={`${baseId}-demo`}
+                      className={classes.icon}
+                      aria-label={`Demo ${index + 1}`}
+                    />
+                  </a>
+                );
+              })}
+
+            {code && (
             <a
               href={code}
               target="_blank"
               rel="noreferrer"
-              className={classes.iconBtn}
+              className={`${classes.iconBtn} ${demo.length != 1 ? '' : 'btnCode' }`}
+              style={{ marginLeft: demo.length > 1 ? '10px' : '0px' }}
               aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
                 .replace(" ", "-")
                 .toLowerCase()}-code`}
@@ -82,6 +107,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 aria-label="Code"
               />
             </a>
+          )}
           </div>
         </div>
         <p

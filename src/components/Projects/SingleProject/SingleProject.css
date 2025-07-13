@@ -56,7 +56,11 @@
     transition: transform 0.5s 0.3s;
 }
 
-.singleProject:hover .project--showcaseBtn a:nth-child(2) {
+/* .singleProject:hover .project--showcaseBtn a:nth-child(2) {
+    transform: translateX(-140px) scale(1.1) !important;
+} */
+
+.singleProject:hover .project--showcaseBtn .btnCode {
     transform: translateX(-140px) scale(1.1) !important;
 }
 
