@@ -3,8 +3,8 @@ import profileImg from '../assets/png/profileImg.png'
 
 export const headerData = {
     name: 'Julieta Bachur',
-    title: "Frontend Developer - UX/UI Designer",
-    description:"Where creativity meets functionality for impactful digital solutions.",
+    title: "Automation Engineer",
+    description:"I design, build and maintain production automations using N8N, APIs and business logic to reduce manual work and improve operations.",
     image: profileImg,
     resumePdf: JulietaBachurResume
 }
