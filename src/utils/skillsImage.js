@@ -58,6 +58,7 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
+import n8n from '../assets/svg/skills/n8n.svg'
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
@@ -74,6 +75,8 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import api from '../assets/svg/skills/api.svg'
+import sqlserver from '../assets/svg/skills/sql-server.svg'
 
 
 export const skillsImage = (skill) => {
@@ -81,8 +84,14 @@ export const skillsImage = (skill) => {
     switch (skillID) {
         case 'gcp':
             return gcp;
+        case 'sql server':
+            return sqlserver;
+        case 'apis/integrations':
+            return api;
         case 'html':
             return html;
+        case 'n8n':
+            return n8n;
         case 'photoshop':
             return photoshop;
         case 'docker':

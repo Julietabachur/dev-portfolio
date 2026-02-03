@@ -1,5 +1,8 @@
 export const skillsData = [
-  "HTML",
+  "APIs/Integrations",
+   "N8N",
+   "HTML",
+   "SQL Server",
   "Javascript",
   "CSS",
   "React",
@@ -9,16 +12,12 @@ export const skillsData = [
   "Typescript",
   "Git",
   "Figma",
-  "Canva",
-  "Firebase",
   "C#",
-  "Illustrator",
   "Adobe XD",
   "Selenium",
   "Java",
   "Next JS",
   "Azure",
-  "Markdown",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -27,6 +26,7 @@ export const skillsData = [
 // AVAILABLE SKILLS
 
 /* 
+    n8n
     HTML
     CSS
     JS 
