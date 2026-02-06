@@ -39,7 +39,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
       <div
         key={id}
         className="singleProject"
-        style={{ backgroundColor: theme.primary400 }}
+        style={{ backgroundColor: theme.primary }}
       >
         <div className="projectContent">
           <h2
@@ -95,7 +95,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               href={code}
               target="_blank"
               rel="noreferrer"
-              className={`${classes.iconBtn} ${demo.length != 1 ? '' : 'btnCode' }`}
+              className={`${classes.iconBtn} ${demo.length !== 1 ? '' : 'btnCode' }`}
               style={{ marginLeft: demo.length > 1 ? '10px' : '0px' }}
               aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
                 .replace(" ", "-")
