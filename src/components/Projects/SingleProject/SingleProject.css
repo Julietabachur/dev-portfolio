@@ -1,6 +1,6 @@
 .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
-    width: 550px;
+    width: 850px;
     /* width: 95%; */
     margin: auto;
     height: 460px;
@@ -111,6 +111,12 @@
     font-weight: 500;
     word-break: break-word; 
     line-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .singleProject{
+        width: 550px;
+    }
 }
 
 @media screen and (max-width: 600px) {
