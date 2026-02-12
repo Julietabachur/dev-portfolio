@@ -22,8 +22,97 @@ import sinisterPortal from "../assets/png/sinisterPortal.PNG";
 import motor from "../assets/png/motor.PNG";
 import reaseguro from "../assets/png/reaseguro.PNG";
 import PDC from "../assets/png/PDC.PNG";
+import asientos from "../assets/png/asientos.png";
+import art25 from "../assets/png/art25.png";
+import pagoFacil from "../assets/png/pagoFacil.png";
+import ticketEngage from "../assets/png/ticketEngage.png";
+import scrappy from "../assets/png/scrappy.png";
+import calidad from "../assets/png/calidad.png";
+import notaUIF from "../assets/png/notaUIF.png";
+import reporteMensual from "../assets/png/reporteMensual.png";
 
 export const projectsData = [
+  
+  {
+    id: 20,
+    projectName: "Credicoop Ticket Automation (960h)",
+    projectDesc:
+      "Backoffice teams previously processed insurance requests manually from physical documents and emails, validating data and creating tickets in Engage for policy issuance control. I developed an N8N automation that monitors incoming emails, extracts data from attached PDFs using OpenAI, validates completeness and format rules, and inserts structured records into SQL Server. A stored procedure then transfers the data to Engage, automatically generating the corresponding ticket. This solution saved approximately 960 hours per year and significantly improved data accuracy and processing speed.",
+    tags: ["N8N", "Email Automation", "PDF Processing", "OpenAI Integration", "SQL Server", "Stored Procedures", "Process Automation"],
+    code: "",
+    demo: [],
+    image: ticketEngage,
+  },
+  {
+    id: 18,
+    projectName: "Mass Certificate Generation Automation (330h)",
+    projectDesc:
+      "Following a new insurance regulation, over 51,000 incorporation certificates had to be generated and processed. I designed an n8n automation that ingested a policyholder database into SQL Server, processed records in controlled batches, retrieved certificates via internal APIs, stored them on company servers, and updated processing statuses in real time. The workflow ran every two minutes in batches of 10, ensuring stability and traceability. This automation replaced a fully manual operation estimated at 330 hours of work.",
+    tags: ["N8N", "Scheduled Trigger", "SQL Server", "REST APIs", "Batch Processing", "Data Automation"],
+    code: "",
+    demo: [],
+    image: art25,
+  },
+  {
+    id: 22,
+    projectName: "Credicoop CAC Assistance (240h)",
+    projectDesc:
+      "To support the call center with customer complaints and cancellation requests from Banco Credicoop, I built an N8N automation that monitors incoming emails, extracts client data using AI, and retrieves policy, endorsement, and payment information via internal APIs. The workflow consolidates relevant records, generates a structured Excel report, and delivers it automatically to the CAC team. This reduced manual research time and saved approximately 240 hours per year.",
+    tags: ["N8N", "Email Automation", "OpenAI Integration", "REST APIs", "Excel Generation", "Process Automation"],
+    code: "",
+    demo: [],
+    image: calidad,
+  },
+  {
+    id: 23,
+    projectName: "Automated UIF Letter (173h)",
+    projectDesc:
+      "When new insurance brokers join the company, a formal UIF declaration letter must be issued. I developed an N8N automation that detects email requests, extracts required information using AI, validates completeness, generates a formal HTML document with branding and signature, converts it to PDF via Gotenberg API, and sends it automatically to the requester. This reduced manual document preparation and saved approximately 173 hours per year.",
+    tags: ["N8N", "Email Automation", "OpenAI Integration", "Document Generation", "PDF Generation", "Process Automation"],
+    code: "",
+    demo: [],
+    image: notaUIF,
+  },
+  {
+    id: 17,
+    projectName: "Banking Ledger & Expense Automation",
+    projectDesc:
+      "End-to-end automation built with N8N to generate banking expense reports and accounting entries for CNP Vida and CNP Ahorro. The workflow retrieves bank statements from SharePoint and Interbanking APIs, maps data against internal SAP account structures, and automatically generates two structured Excel files sent to the accounting team. This replaced a fully manual process, saving approximately 36 hours per year and improving data consistency.",
+    tags: ["N8N","Webhooks", "Outlook", "SharePoint", "Interbanking APIs", "Excel", "Custom data transformation logic"],
+    code: "",
+    demo: [],
+    image: asientos,
+  },
+  {
+    id: 19,
+    projectName: "TXT Payment Orders Data Extraction",
+    projectDesc:
+      "Weekly payment order files received as structured TXT documents were previously processed manually, requiring copy-paste operations highly exposed to human error. I built an N8N automation that monitors the Outlook mailbox, downloads the files, extracts key financial data using regex parsing, and generates a structured Excel report in SharePoint. The workflow automatically creates the monthly file if it does not exist and appends each processed record sequentially. This solution saved approximately 24 hours per year and significantly reduced operational risk.",
+    tags: ["N8N", "Outlook", "Regex Parsing", "File Processing", "Excel Generation", "SharePoint", "Process Automation"],
+    code: "",
+    demo: [],
+    image: pagoFacil,
+  },
+  {
+    id: 24,
+    projectName: "Regulatory SSN Report",
+    projectDesc:
+      "Following regulatory changes, banking movement reports had to be submitted via API instead of manual web upload. I developed an N8N workflow that ingests Excel data from SharePoint, inserts records into SQL Server, structures the required JSON format via stored procedures, and submits the report through the SSN API. The process includes authentication, validation, and automatic email/Teams notifications with submission results and attached reports.",
+    tags: ["N8N", "Regulatory Reporting", "SQL Server", "Stored Procedures", "REST APIs", "Process Automation"],
+    code: "",
+    demo: [],
+    image: reporteMensual,
+  },
+  {
+    id: 21,
+    projectName: "Competitive Intelligence Automation (Scraping & Reporting)",
+    projectDesc:
+      "Designed a monthly N8N workflow that connects via API to a custom-built scraping bot, sending competitor URLs to retrieve structured website content. The automation consolidates the extracted data, generates a comparative competitive analysis between our company and competitors, transforms the output into HTML and PDF using the Gotenberg API, and delivers the final report automatically via email to the commercial team. This solution introduced a scalable competitive intelligence process to support strategic decision-making.",
+    tags: ["N8N", "Scheduled Trigger", "Web Scraping", "REST APIs", "Data Analysis", "PDF Generation", "Email Automation"],
+    code: "",
+    demo: [],
+    image: scrappy,
+  },
   {
     id: 1,
     projectName: "The Simpsons",
@@ -201,7 +290,7 @@ export const projectsData = [
     code: "",
     demo: ["https://xd.adobe.com/view/fa6220b6-86b0-44cc-bc60-c7e3f4ece301-af31/"],
     image: PDC,
-  },
+  }
 ];
 
 // Do not remove any fields.
